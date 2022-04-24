@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ecommerse</title>
+    <link rel="shortcut icon" href="./assets/iconos/bx-shopping-bag.svg" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <div id="contenedor-carga">
+      <div id="carga"></div>
+    </div>
+
+    <nav id="main-nav" class="main-nav">
+      <div class="nav-container">
+        <div class="logo-title-box">
+          <img src="./assets/imagenes/favicon.png" alt="" />
+          <h4>STORE</h4>
+        </div>
+
+        <div class="main-icons-container">
+          <img id="icon-dark-mode" src="./assets/iconos/bx-moon.svg" alt="" />
+
+          <img
+            id="icon-shop"
+            src="./assets/iconos/bx-shopping-bag.svg"
+            alt=""
+          />
+
+          <img id="menu" src="./assets/iconos/bx-grid-alt.svg" alt="" />
+        </div>
+
+        <div id="carrito-compras" class="carrito-compras">
+          <h3>My cart</h3>
+
+          <div class="cart-content">
+            <div class="img-cart">
+              <img src="./assets/imagenes/empty-cart.png" alt="" />
+            </div>
+
+            <div class="text-cart">
+              <h4>Your cart is empty</h4>
+              <p>
+                You can add items to your cart by clicking on the "+" button on
+                the product page.
+              </p>
+            </div>
+
+            <div class="footer-cart">
+              <div class="cart-items">0 items</div>
+              <div class="cart-price">$0.00</div>
+            </div>
+
+            <div class="cart-checkout">
+              <p>Checkout</p>
+            </div>
+          </div>
+        </div>
+
+        <ul id="main-menu" class="main-menu">
+          <li class="main-menu__item">
+            <a href="#main-nav" class="main-menu__link">Home</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#products" class="main-menu__link">Products</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section>
+      <div class="home-container">
+        <div class="home-div">
+          <img src="./assets/imagenes/home.png" alt="" />
+        </div>
+
+        <div class="home-info-div">
+          <h2 id="home-info_title">New Sweatshirt<br />COLLECTIONS 2022</h2>
+          <p id="description" class="info-text">
+            Latest arrival of the new Hanes Midweight Crewneck sweatshirt
+            imported from the 2022 series, with a modern design.
+          </p>
+          <p class="info-price">$14.00</p>
+          <div id="discover1" class="discover-cart-box">
+            <div id="discover2" class="discover-div">
+              <a href="#main-nav">Discover</a>
+            </div>
+            <div id="add-cart" class="add-cart-div">ADD TO CART</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="main-product-container">
+        <div class="product-box">
+          <div class="product-container">
+            <div class="shirt-box">
+              <img src="./assets/imagenes/featured1.png" alt="" />
+            </div>
+
+            <div class="add-container">
+              <img
+                class="add-cart-img"
+                src="./assets/iconos/bx-cart-add.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="details-box">
+              <div class="details-container">
+                <div class="price-container">
+                  <p class="details-price">$14.00</p>
+                </div>
+
+                <div class="stock-text-container">
+                  <p class="details-stock-text">Stock:</p>
+                  <p class="details-stock">0</p>
+                </div>
+              </div>
+
+              <div class="clothe-container">
+                <p class="details-clothe">Hoodies</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-container">
+            <div class="shirt-box">
+              <img src="./assets/imagenes/featured2.png" alt="" />
+            </div>
+
+            <div class="add-container">
+              <img
+                class="add-cart-img"
+                src="./assets/iconos/bx-cart-add.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="details-box">
+              <div class="details-container">
+                <div class="price-container">
+                  <p class="details-price">$24.00</p>
+                </div>
+
+                <div class="stock-text-container">
+                  <p class="details-stock-text">Stock:</p>
+                  <p class="details-stock">0</p>
+                </div>
+              </div>
+
+              <div class="clothe-container">
+                <p class="details-clothe">Shirts</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-container">
+            <div class="shirt-box">
+              <img src="./assets/imagenes/featured3.png" alt="" />
+            </div>
+
+            <div class="add-container">
+              <img
+                class="add-cart-img"
+                src="./assets/iconos/bx-cart-add.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="details-box">
+              <div class="details-container">
+                <div class="price-container">
+                  <p class="details-price">$24.00</p>
+                </div>
+
+                <div class="stock-text-container">
+                  <p class="details-stock-text">Stock:</p>
+                  <p class="details-stock">0</p>
+                </div>
+              </div>
+
+              <div class="clothe-container">
+                <p class="details-clothe">Sweatshirts</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-div">
+          <h3>Our information</h3>
+          <p>Playa del carmen - México</p>
+        </div>
+
+        <div class="footer-div">
+          <h3>About us</h3>
+          <p>Support Center</p>
+          <p>Customer Support</p>
+          <p>About us</p>
+          <p>Copy Right</p>
+        </div>
+
+        <div class="footer-div">
+          <h3>Product</h3>
+          <p>Hoodies</p>
+          <p>Shirts</p>
+          <p>Sweatshirts</p>
+        </div>
+
+        <div class="footer-div">
+          <h3>Social</h3>
+          <div class="social-div">
+            <img src="./assets/iconos/bxl-facebook.svg" alt="" />
+            <img src="./assets/iconos/bxl-twitter.svg" alt="" />
+            <img src="./assets/iconos/bxl-instagram.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-sign">
+        <p>ACADEMLO. All rigths reserved</p>
+        <p>Made by Roberto Mattus</p>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="./carrito.js"></script>
+  </body>
+</html>
